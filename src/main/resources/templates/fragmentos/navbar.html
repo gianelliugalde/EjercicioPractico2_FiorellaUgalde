@@ -1,0 +1,19 @@
+
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+
+
+<nav th:fragment="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" th:href="@{/}">Eventos</a>
+        <div class="navbar-nav">
+            <a class="nav-link" th:href="@{/usuarios}">Usuarios</a>
+            <a class="nav-link" th:href="@{/roles}">Roles</a>
+            <a class="nav-link" th:href="@{/eventos}">Eventos</a>
+            <a class="nav-link" th:href="@{/consultas}">Consultas</a>
+            <a class="nav-link" th:href="@{/logout}">Cerrar sesión</a>
+        </div>
+    </div>
+</nav>
